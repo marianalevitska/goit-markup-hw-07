@@ -1,0 +1,115 @@
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-connect {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+.header-contacts:nth-of-type(1) {
+  margin-right: 50px;
+}
+
+.header-logo {
+  margin-right: 93px;
+}
+
+.header-item {
+  margin-right: 50px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}
+.web {
+  color: var(--accent-color);
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.header-link.current::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: -32px;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-contacts {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+  align-items: center;
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts:hover .social-icon,
+.header-contacts:focus .social-icon {
+  fill: var(--accent-color);
+}
+
+.header-contacts {
+  display: flex;
+  margin-right: 30px;
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-contacts:last-child {
+  margin-right: 0;
+}
+.social-icon {
+  fill: var(--second-text-color);
+  margin-right: 10px;
+  align-self: center;
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
