@@ -58,7 +58,7 @@ body {
 }
 
 /* -----------------HEADER------------------ */
-.header {
+/* .header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
@@ -172,7 +172,7 @@ body {
   align-self: center;
   transition: color 200ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* ---------TITLE----- */
 
 h1 {
@@ -829,7 +829,7 @@ button:hover {
 }
 
 .modal-check:checked + .modal-check-text::before {
-  background-image: url(../images/icon\ check.svg);
+  background-image: url(../images/icons.svg#icon-icon-check);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
