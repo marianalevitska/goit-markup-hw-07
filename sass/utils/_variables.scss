@@ -4,9 +4,11 @@
   --third-text-color: #ffffff;
   --mail-text-color: rgba(255, 255, 255, 0.6);
   --social-icon-color: rgba(255, 255, 255, 0.1);
+  --first-button-color: #f5f4fa;
+  --second-button-color: #2196f3;
   --accent-color: #2196f3;
-  --bg-color-1: #2f303a;
-  --bg-color-2: #f5f4fa;
+  --bg-color: #2f303a;
+  --social-icon-color: rgba(255, 255, 255, 0.1);
   --icon-first-color: #afb1b8;
 }
 
@@ -40,11 +42,6 @@ address {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-body {
-  font-family: Roboto;
-  font-style: normal;
 }
 
 .list {

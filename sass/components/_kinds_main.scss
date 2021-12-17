@@ -1,0 +1,36 @@
+.main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.main-kinds {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.kinds-list {
+  display: flex;
+}
+
+.kinds-btn {
+  background-color: var(--first-button-color);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  padding: 6px 22px;
+  margin-right: 8px;
+  transition: color 200ms linear, background-color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.kinds-btn:hover,
+.kinds-btn:active,
+.kinds-btn:focus {
+  color: var(--third-text-color);
+}
