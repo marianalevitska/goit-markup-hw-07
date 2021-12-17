@@ -1,0 +1,116 @@
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.main-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-member {
+  margin-right: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+}
+.team-member:last-child {
+  margin-right: 0;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+  margin-bottom: 50px;
+}
+
+.team {
+  background-color: var(--bg-color-2);
+}
+.team-under {
+  padding: 30px 0 30px 0;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+  text-align: center;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.main-social-list {
+  display: flex;
+  justify-content: center;
+}
+.main-social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  margin-top: 16px;
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--third-text-color);
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-social-item:last-child {
+  margin-right: 0;
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-social-link:hover,
+.main-social-link:focus {
+  background-color: var(--accent-color);
+}
+.main-social-link:hover .main-social-icon,
+.main-social-link:focus .main-social-icon {
+  fill: var(--third-text-color);
+}
+
+.main-social-icon {
+  fill: var(--icon-first-color);
+  transition: color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--social-icon-color);
+}
