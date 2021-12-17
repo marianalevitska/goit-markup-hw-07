@@ -132,6 +132,7 @@
   --second-button-color: #2196f3;
   --accent-color: #2196f3;
   --bg-color: #2f303a;
+  --bg-color-2: #f5f4fa;
   --social-icon-color: rgba(255, 255, 255, 0.1);
   --icon-first-color: #afb1b8;
 }
@@ -168,6 +169,11 @@ address {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
 }
 
 .list {
@@ -529,7 +535,7 @@ button:hover {
 }
 
 .footer {
-  background-color: var(--bg-color-1);
+  background-color: var(--bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
