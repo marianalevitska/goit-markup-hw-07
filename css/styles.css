@@ -302,7 +302,7 @@ button:hover {
   justify-content: center;
 } */
 
-.products {
+/* .products {
   padding-bottom: 94px;
 }
 .main-products {
@@ -341,9 +341,9 @@ button:hover {
   position: absolute;
   top: 224px;
   left: 0;
-}
+} */
 
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -458,7 +458,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   background-color: var(--social-icon-color);
-}
+} */
 
 .clients {
   padding-top: 94px;
@@ -881,7 +881,7 @@ textarea {
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11 */
 
-/* :root {
+:root {
   --first-text-color: #212121;
   --second-text-color: #757575;
   --third-text-color: #ffffff;
@@ -935,11 +935,11 @@ address {
 
 .link {
   text-decoration: none;
-} */
+}
 
 /* -----------------HEADER------------------ */
 
-/* .header {
+.header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
@@ -1048,7 +1048,7 @@ address {
   margin-right: 10px;
   transition: color 200ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 
 /* -----------MAIN------------ */
 .main {
