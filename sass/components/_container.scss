@@ -1,12 +1,19 @@
-.container-1 {
-  width: 500px;
+.container {
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-.container-2 {
-  width: 570px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+
+  &-1 {
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &-2 {
+    width: 570px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

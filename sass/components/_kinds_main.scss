@@ -2,7 +2,6 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .main-kinds {
   display: flex;
   align-items: center;
@@ -10,6 +9,12 @@
   flex-direction: column;
   margin-bottom: 50px;
 }
+.main-photo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
 .kinds-list {
   display: flex;
 }
