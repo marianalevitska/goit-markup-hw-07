@@ -1,5 +1,16 @@
 .products {
   padding-bottom: 94px;
+  &-list {
+    display: flex;
+  }
+
+  &-item {
+    margin-right: 30px;
+    position: relative;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
 .main-products {
   display: flex;
@@ -7,17 +18,3 @@
   justify-content: space-between;
   flex-direction: column;
 }
-
-.products-list {
-  display: flex;
-}
-
-.products-item {
-  margin-right: 30px;
-  position: relative;
-}
-
-.products-item:last-child {
-  margin-right: 0;
-}
-

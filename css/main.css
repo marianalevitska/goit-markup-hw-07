@@ -178,13 +178,6 @@ body {
   padding-bottom: 94px;
 }
 
-.main-points {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
 .points-list {
   display: flex;
   flex-direction: row;
@@ -197,6 +190,13 @@ body {
 
 .points-item:last-child {
   margin-right: 0;
+}
+
+.main-points {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .title {
@@ -228,6 +228,10 @@ body {
   margin-right: 30px;
 }
 
+.benefits-item:last-child {
+  margin-right: 0;
+}
+
 .benefits-link {
   width: 100%;
   height: 100%;
@@ -235,10 +239,6 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--bg-color-2);
-}
-
-.benefits-item:last-child {
-  margin-right: 0;
 }
 
 .benefits-icon {
@@ -277,13 +277,6 @@ h1 {
   padding-bottom: 94px;
 }
 
-.main-products {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
 .products-list {
   display: flex;
 }
@@ -297,16 +290,16 @@ h1 {
   margin-right: 0;
 }
 
-.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.main-team {
+.main-products {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
@@ -323,6 +316,13 @@ h1 {
 
 .team-member:last-child {
   margin-right: 0;
+}
+
+.main-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .h2 {
