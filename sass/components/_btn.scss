@@ -1,0 +1,109 @@
+// main index btn
+.main-title-btn {
+  background-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+}
+
+button:active,
+button:hover {
+  cursor: pointer;
+}
+
+// products btn
+.products-bottom {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 27px 82px;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  position: absolute;
+  top: 224px;
+  left: 0;
+}
+
+// modal btn
+.modal-btn {
+  position: absolute;
+  top: 491px;
+  left: 164px;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+  width: 200px;
+  height: 50px;
+  border: none;
+}
+.modal-btn:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+// kinds btn
+
+.kinds-btn {
+  background-color: var(--first-button-color);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  padding: 6px 22px;
+  margin-right: 8px;
+  transition: color 200ms linear, background-color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.kinds-btn:hover,
+.kinds-btn:active,
+.kinds-btn:focus {
+  color: var(--third-text-color);
+}
+
+// footer btn
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #fff;
+  background-color: var(--accent-color);
+  border: none;
+  letter-spacing: 0.03em;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  transition: background-color 200ms linear, color 200ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
