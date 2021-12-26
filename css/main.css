@@ -325,7 +325,7 @@ h1 {
   display: flex;
 }
 
-.team-member {
+.team-list__item {
   margin-right: 30px;
   flex-basis: calc(100% / 3 - 30px);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -333,15 +333,15 @@ h1 {
   background-color: #fff;
 }
 
-.team-member:last-child {
+.team-list__item:last-child {
   margin-right: 0;
 }
 
-.team-under {
+.team-item__under {
   padding: 30px 0 30px 0;
 }
 
-.team-title {
+.team-list__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -350,7 +350,7 @@ h1 {
   text-align: center;
 }
 
-.team-text {
+.team-list__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -360,7 +360,7 @@ h1 {
   text-align: center;
 }
 
-.main-team {
+.team__section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -376,12 +376,12 @@ h1 {
   margin-bottom: 50px;
 }
 
-.main-social-list {
+.social-list {
   display: flex;
   justify-content: center;
 }
 
-.main-social-item {
+.social-list__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
@@ -390,13 +390,13 @@ h1 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-social-item:last-child {
+.social-list__item:last-child {
   margin-right: 0;
   transition: color 200ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-social-link {
+.social-list__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -408,16 +408,16 @@ h1 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-social-link:hover, .main-social-link:focus {
+.social-list__link:hover, .social-list__link:focus {
   background-color: var(--accent-color);
 }
 
-.main-social-link:hover .main-social-icon,
-.main-social-link:focus .main-social-icon {
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
   fill: var(--third-text-color);
 }
 
-.main-social-icon {
+.social-list__icon {
   fill: var(--icon-first-color);
   transition: color 200ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
