@@ -15,7 +15,7 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 
-  &:hover .products-top {
+  &:hover .photo-list__item__top {
     transform: translateY(0);
   }
   &:nth-of-type(3n) {
@@ -38,12 +38,12 @@ button:focus {
   background: var(--second-button-color);
 }
 
-.products-wrap {
+.photo-list__item__wrap {
   position: relative;
   overflow: hidden;
 }
 
-.products-top {
+.photo-list__item__top {
   position: absolute;
   top: 0;
   left: 0;

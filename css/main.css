@@ -861,7 +861,7 @@ textarea {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.photo-list__item:hover .products-top {
+.photo-list__item:hover .photo-list__item__top {
   transform: translateY(0);
 }
 
@@ -884,12 +884,12 @@ button:focus {
   background: var(--second-button-color);
 }
 
-.products-wrap {
+.photo-list__item__wrap {
   position: relative;
   overflow: hidden;
 }
 
-.products-top {
+.photo-list__item__top {
   position: absolute;
   top: 0;
   left: 0;
