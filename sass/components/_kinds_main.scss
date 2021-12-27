@@ -1,11 +1,10 @@
 .main {
   padding-top: 94px;
   padding-bottom: 94px;
-
-  &-photo {
-    display: flex;
-    justify-content: space-between;
-  }
+}
+.kinds__photo {
+  display: flex;
+  justify-content: space-between;
 }
 .kinds__section {
   display: flex;

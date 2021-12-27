@@ -827,7 +827,7 @@ textarea {
   padding-bottom: 94px;
 }
 
-.main-photo {
+.kinds__photo {
   display: flex;
   justify-content: space-between;
 }
