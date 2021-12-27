@@ -694,7 +694,7 @@ h1 {
   fill: var(--accent-color);
 }
 
-.modal-icon {
+.modal-form__field__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -713,7 +713,7 @@ h1 {
   margin-bottom: 12px;
 }
 
-.modal-input {
+.modal-form__field__input {
   width: 100%;
   height: 40px;
   padding-top: 12px;
@@ -724,16 +724,16 @@ h1 {
   border-radius: 4px;
 }
 
-.modal-input:hover, .modal-input:focus {
+.modal-form__field__input:hover, .modal-form__field__input:focus {
   border: 1px solid var(--accent-color);
 }
 
-.modal-input:hover + .modal-icon,
-.modal-input:focus + .modal-icon {
+.modal-form__field__input:hover + .modal-form__field__icon,
+.modal-form__field__input:focus + .modal-form__field__icon {
   fill: var(--accent-color);
 }
 
-.modal-text {
+.modal-form__field__text {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -742,7 +742,7 @@ h1 {
   padding: 12px 16px;
 }
 
-.modal-text::placeholder {
+.modal-form__field__text::placeholder {
   position: absolute;
   top: 15px;
   left: 16px;
@@ -755,11 +755,11 @@ h1 {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-text:hover, .modal-text:focus {
+.modal-form__field__text:hover, .modal-form__field__text:focus {
   border: 1px solid var(--accent-color);
 }
 
-.modal-check {
+.modal-form__field__check {
   position: absolute;
   top: 437px;
   left: 76.38px;
@@ -767,7 +767,7 @@ h1 {
   margin-top: 10px;
 }
 
-.modal-check:checked + .modal-check-text::before {
+.modal-form__field__check:checked + .modal-form__field__check-text::before {
   background-image: url(../images/check.svg);
   background-position: center;
   background-size: cover;
@@ -775,13 +775,13 @@ h1 {
   border: none;
 }
 
-.modal-check-text {
+.modal-form__field__check-text {
   font-size: 14px;
   color: #757575;
   display: flex;
 }
 
-.modal-check-text::before {
+.modal-form__field__check-text::before {
   content: "";
   width: 16px;
   height: 15px;
@@ -802,7 +802,7 @@ h1 {
   pointer-events: none;
 }
 
-.form-top {
+.modal-form__field__top {
   font-family: Roboto;
   font-size: 12px;
   line-height: 1.17;
@@ -813,7 +813,7 @@ h1 {
   margin-bottom: 4px;
 }
 
-.checkbox-link {
+.modal-form__field__link {
   color: #2196f3;
 }
 
@@ -947,7 +947,7 @@ button:active, button:hover {
   cursor: pointer;
 }
 
-.modal-btn {
+.modal-form__field__submit-btn {
   position: absolute;
   top: 491px;
   left: 164px;
@@ -964,7 +964,7 @@ button:active, button:hover {
   border: none;
 }
 
-.modal-btn:hover {
+.modal-form__field__submit-btn:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
