@@ -827,17 +827,17 @@ textarea {
   padding-bottom: 94px;
 }
 
-.main-kinds {
+.main-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kinds__section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   margin-bottom: 50px;
-}
-
-.main-photo {
-  display: flex;
-  justify-content: space-between;
 }
 
 .kinds-list {
