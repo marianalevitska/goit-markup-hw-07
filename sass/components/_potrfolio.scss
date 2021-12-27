@@ -57,12 +57,12 @@ button:focus {
   transition: transform 200ms;
 }
 
-.photo-text {
+.photo-list__text {
   padding: 20px 24px 20px 24px;
   width: 370px;
 }
 
-.title-1 {
+.photo-list__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -70,7 +70,7 @@ button:focus {
   color: var(--first-text-color);
 }
 
-.pre-title-1 {
+.photo-list__pre-title {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
