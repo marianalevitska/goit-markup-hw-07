@@ -671,7 +671,7 @@ h1 {
   padding: 40px;
 }
 
-.modal-close {
+.modal__close-btn {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -685,12 +685,12 @@ h1 {
   justify-content: center;
 }
 
-.modal-close:hover, .modal-close:focus {
+.modal__close-btn:hover, .modal__close-btn:focus {
   background-color: #fff;
 }
 
-.modal-close:hover .close-icon,
-.modal-close:focus .close-icon {
+.modal__close-btn:hover .modal__close-btn__icon,
+.modal__close-btn:focus .modal__close-btn__icon {
   fill: var(--accent-color);
 }
 

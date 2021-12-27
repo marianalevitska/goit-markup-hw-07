@@ -23,7 +23,7 @@
   transition: transform 200ms;
   padding: 40px;
 
-  &-close {
+  &__close-btn {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -40,8 +40,8 @@
     &:focus {
       background-color: #fff;
     }
-    &:hover .close-icon,
-    &:focus .close-icon {
+    &:hover .modal__close-btn__icon,
+    &:focus .modal__close-btn__icon {
       fill: var(--accent-color);
     }
   }
