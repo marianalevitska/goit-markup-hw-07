@@ -968,7 +968,7 @@ button:active, button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.kinds-btn {
+.kinds-list__btn {
   background-color: var(--first-button-color);
   border-radius: 4px;
   font-family: Roboto;
@@ -984,7 +984,7 @@ button:active, button:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.kinds-btn:hover, .kinds-btn:active, .kinds-btn:focus {
+.kinds-list__btn:hover, .kinds-list__btn:active, .kinds-list__btn:focus {
   color: var(--third-text-color);
 }
 
