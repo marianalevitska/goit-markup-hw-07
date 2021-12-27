@@ -988,7 +988,7 @@ button:active, button:hover {
   color: var(--third-text-color);
 }
 
-.submit-btn {
+.subscribe-form__btn {
   display: flex;
   justify-content: center;
   align-items: center;

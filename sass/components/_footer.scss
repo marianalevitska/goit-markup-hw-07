@@ -116,12 +116,12 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
-
-  &-form {
-    display: flex;
-  }
 }
-.form-input {
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-form__input {
   display: flex;
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
