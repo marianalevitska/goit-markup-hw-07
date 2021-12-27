@@ -45,7 +45,6 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--first-text-color);
   }
   &-list__link {
     font-weight: 500;
@@ -99,6 +98,9 @@
       margin-right: 0;
     }
   }
+}
+.logo-span--color-dark {
+  color: var(--first-text-color);
 }
 .web {
   color: var(--accent-color);

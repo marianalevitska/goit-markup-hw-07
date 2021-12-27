@@ -41,8 +41,8 @@
       border: 1px solid var(--accent-color);
     }
 
-    &:hover .clients-icon,
-    &:focus .clients-icon {
+    &:hover .clients-list__icon,
+    &:focus .clients-list__icon {
       fill: var(--accent-color);
     }
   }

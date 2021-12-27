@@ -3,25 +3,25 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  &-full {
+  &__full {
     display: flex;
     align-items: center;
     justify-content: space-between;
     align-items: baseline;
   }
-  &-adress {
+  &__adress {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
   }
-  &-logo {
+  &__logo {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--third-text-color);
+
     margin-bottom: 20px;
   }
   &-social-list {
@@ -60,6 +60,9 @@
   &-social-item:last-child {
     margin-right: 0;
   }
+}
+.logo-span--color-light {
+  color: var(--third-text-color);
 }
 .contact-list {
   display: flex;
